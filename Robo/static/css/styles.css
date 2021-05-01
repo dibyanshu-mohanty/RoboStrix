@@ -1,0 +1,241 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.top-container{
+  background-image: url("https://wallpaperaccess.com/full/2077968.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 45rem;
+  margin: 0;
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+.HP{
+  margin-top: 200px;
+  margin-left: 250px;
+}
+#HO{
+  margin-top: 50px;
+}
+#HF{
+  margin-top: 50px;
+}
+#btn1{
+  margin-top: 50px;
+}
+.mid-container{
+  margin: 0;
+  animation-duration: 6s;
+  animation-name: slidein;
+}
+.sp-i{
+  position: relative;
+  left: 0;
+  color: white;
+  font-size: 40px;
+}
+.centered{
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  font-family: 'Balsamiq Sans', cursive;
+}
+.card{
+  margin: 0;
+}
+.SP{
+  margin-top: 100px;
+}
+.b-mid-conatiner{
+  margin-top: 200px;
+  animation-duration: 8s;
+  animation-name: slidein;
+}
+.bp-i{
+  position: relative;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.center{
+  position: absolute;
+  right: 8%;
+  top:150px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+.BP{
+  margin-top: 100px;
+  display: inline-flex;
+}
+.bottom-container{
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+.ap-i{
+  margin-top: 0;
+}
+.AP{
+  margin-top: 300px;
+}
+.vid{
+  margin-top: 100px;
+}
+.footer{
+  background-color: #f1f1f1;
+  margin-top: 100px;
+}
+.last-container{
+  background-image: url("https://wallpaperbat.com/img/204174-download-robotics-wallpaper-hd-background-download-t.jpg");
+  background-size: cover;
+}
+.row1{
+  margin-top: 100px;
+}
+.form {
+  margin: 0 10px;
+}
+
+.Htwo {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#container {
+  max-width: 360px;
+
+}
+
+.divider {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.divider hr {
+  margin: 7px 0;
+  width: 35%;
+}
+.dash{
+  margin-top: 100px;
+}
+.dark-row{
+    background:#AEC5E8;
+
+}
+.light-row{
+
+    background:#F1F3F0;
+}
+
+@media screen and (max-width:575px){
+  .HP{
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  #HT{
+    font-size: 16px;
+  }
+  #HO{
+    margin-top: 60px;
+    font-size: 24px;
+  }
+  #HF{
+    margin-top: 60px;
+    font-size: 16px;
+  }
+  .sp-i{
+    margin-top: 60px;
+    font-size: 28px;
+  }
+  .SP{
+    margin-top: 20px;
+  }
+  .centered{
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  .bp-i{
+    margin-top: 0;
+    overflow: hidden;
+  }
+  .BP{
+    margin-top: 10rem;
+    display: block;
+  }
+  .AP{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:767px){
+  .top-container{
+    height: 25rem;
+  }
+  .HP{
+    margin-left: 20px;
+  }
+  .bp-i{
+    margin-top: 0;
+    overflow: hidden;
+  }
+  .BP{
+    margin-top: 10rem;
+    display: block;
+  }
+}
+@media screen and (max-width:991px){
+  .top-container{
+    height: 30rem;
+  }
+  .HP{
+    margin-left: 15px;
+  }
+  .sp-i{
+    margin-top: 60px;
+    font-size: 28px;
+  }
+  .SP{
+    margin-top: 20px;
+  }
+  .centered{
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  .bp-i{
+    margin-top: 0;
+    overflow: hidden;
+  }
+  .BP{
+    margin-top: 10rem;
+    display: flex;
+  }
+}
+@media screen and (max-width:1199px){
+  .HP{
+    margin-left: 15px;
+  }
+  .bp-i{
+    margin-top: 0;
+    overflow: hidden;
+  }
+  .BP{
+    margin-top: 10rem;
+    display: block;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

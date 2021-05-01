@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="dash">
+    <div class="container">
+      <div class="row">
+        <div class="table-responsive table-bordered movie-table">
+          <table class="table movie-table">
+            {% include 'partials/_alerts.html' %}
+            <thead>
+              <tr class="movie-table-head">
+                <th>Obstacle</th>
+                <th>Temperature</th>
+                <th>Humidity</th>
+                <th>Track</th>
+                <th>Fire Detect</th>
+                <th>Shock Detect</th>
+                <th>Inclination</th>
+                <th>Movement</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for i in data %}
+                  <tr class="dark-row">
+                    <td>{{ i.field1 }}</td>
+                    <td>{{ i.field2 }}</td>
+                    <td>{{ i.field3 }}</td>
+                    <td>{{ i.field4 }}</td>
+                    <td>{{ i.field5 }}</td>
+                    <td>{{ i.field6 }}</td>
+                    <td>{{ i.field7 }}</td>
+                    <td>{{ i.field8 }}</td>
+                  </tr>
+              {% endfor %}
+              
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
