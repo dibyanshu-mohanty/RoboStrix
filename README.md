@@ -12,6 +12,8 @@ The team members are Dibyanshu Mohanty, Himanshu Shah, Preetish Biswal, Mayank S
 
 Due to lockdown in many states , it was difficult for us to arrange a 360 degree camera module along with high torque motors. But out of the same we learnt how to maximize the output from limited time and resources.
 
+We have also enabled booking demo for our test prototypeand as soon as an user books a demo on our website , Our developers would recieve a mail and will be notified and can contact them anytime soon.
+
 #PROTOTYPE OF ROBOSTRIXX
 The prototype model is based on a toy car chassis loaded with an exhaustive list of sensors such as IR sensor, flame sensor, tilt sensor, shock sensor , tracking module, temp and humidity sensor.
 The development boards used are Arduino and NodeMCU.
@@ -33,3 +35,6 @@ During the further development of this project, we also aim to launch more perso
 ![booking](https://user-images.githubusercontent.com/72657275/116800662-c8bc0300-ab20-11eb-8dd3-9423da666563.png)
 ![Phone](https://user-images.githubusercontent.com/72657275/116800664-ce194d80-ab20-11eb-8198-97670853998c.png)
 ![Tablet](https://user-images.githubusercontent.com/72657275/116800666-d70a1f00-ab20-11eb-871b-d9f3d4a0c3af.png)
+![booking confirmed](https://user-images.githubusercontent.com/72657275/116801111-59e0a900-ab24-11eb-9a17-d24ffc8fd96a.png)
+![Mail](https://user-images.githubusercontent.com/72657275/116801112-5cdb9980-ab24-11eb-8c8b-b179a29917ec.png)
+
