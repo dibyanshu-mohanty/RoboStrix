@@ -26,6 +26,8 @@ The data received from the sensors can be further used for analysis in the Thing
 We will use Industrial state of art sensors and high torque motors to develop and deploy robots that have highly specified space of work eg. Industry, Farmhouse etc.
 During the further development of this project, we also aim to launch more personalized feature where you can control the bot while comforting on your couch.
 
+Link to our Arduino code: https://github.com/himanshushah05/Robostrix-
+Link to our Project video: https://youtu.be/mT2Dclpx9RI
 
 #UI/UX
 ![Home page](https://user-images.githubusercontent.com/72657275/116800654-bf329b00-ab20-11eb-817b-37484b084a13.png)
